@@ -1,5 +1,5 @@
 ---
-# [Built Portfolio With GitHub ](https://github.com/said7388/github-portfolio)
+# [Built Portfolio With GitHub ](https://github.com/Akshay5651/my-portfolio)
 
 ---
 
@@ -13,7 +13,7 @@
 
 ![](./public/image/screen.png)
 
-## View live preview [here](https://abusaid.netlify.app/).
+## View live preview [here](https://Akki5651.netlify.app/).
 
 ---
 
@@ -105,27 +105,27 @@ NEXT_PUBLIC_RECAPTCHA_SECRET_KEY = # For captcha verification on contact form
 NEXT_PUBLIC_RECAPTCHA_SITE_KEY =
 ```
 
-### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
+### Then, Customize data in the `utils/data` [folder](https://github.com/Akshay5651/my-portfolio/tree/main/utils/data).
 
 Eg:
 
 ```javascript
 export const personalData = {
-  name: "ABU SAID",
+  name: "AKSHAY VERMA",
   profile: "/profile.png",
-  designation: "Full-Stack Software Developer",
-  description: "My name is ABU SAID....",
-  email: "abusaid7388@gmail.com",
-  phone: "+8801608797655",
-  address: "Dhaka, Bangladesh",
-  github: "https://github.com/said7388",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "...",
+  designation: "Frontend Developer",
+  description: "My name is AKSHAY VERMA....",
+  email: "akki221099@gmail.com",
+  phone: "+918938927500",
+  address: "Manimajra, Panchkula, Chandigarh - 160101",
+  github: "https://github.com/Akshay5651",
+  facebook: "",
+  linkedIn: 'https://www.linkedin.com/in/akshay-verma-0270b7172',
+  twitter: "",
+  stackOverflow: "",
+  leetcode: "https://leetcode.com/u/akki221099/",
+  devUsername: "Akshay5651",
+  resume: "https://drive.google.com/file/d/1RRAC6il1fBqbSmU53J0GPkyFdK9WgU77/view?usp=sharing",
 };
 ```
 
