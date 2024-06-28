@@ -24,7 +24,7 @@ function ContactWithoutCaptcha() {
   };
 
   const handleSendMail = async (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     if (!input.email || !input.message || !input.name) {
       setError({ ...error, required: true });
       return;
@@ -55,7 +55,7 @@ function ContactWithoutCaptcha() {
   };
 
   return (
-    <div className="">
+    <form className="" name="contact" netlify>
       <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
         Contact with me
       </p>
@@ -126,7 +126,7 @@ function ContactWithoutCaptcha() {
           </div>
         </div>
       </div>
-    </div>
+    </form>
   );
 };
 
