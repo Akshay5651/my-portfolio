@@ -27,6 +27,7 @@ function ContactWithCaptcha() {
 
   const handleSendMail = async (e) => {
     e.preventDefault();
+    
     if (!captcha) {
       toast.error('Please complete the captcha!');
       return;
@@ -68,7 +69,7 @@ function ContactWithCaptcha() {
   };
 
   return (
-    <form className="" name="contact" netlify onSubmit={handleSendMail}>
+    <form name="contact" onSubmit={handleSendMail}>
       <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
         Contact with me
       </p>
@@ -76,7 +77,7 @@ function ContactWithCaptcha() {
         <p className="text-sm text-[#d3d8e8]">
           {"If you have any questions or concerns, please don't hesitate to contact me. I am open to any work opportunities that align with my skills and interests."}
         </p>
-        <div className="mt-6 flex flex-col gap-4">
+        <div className="first-letter:mt-6 flex flex-col gap-4" netlify>
           <div className="flex flex-col gap-2">
             <label className="text-base">Your Name: </label>
             <input
