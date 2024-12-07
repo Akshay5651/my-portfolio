@@ -43,6 +43,7 @@ import memsql from '/public/svg/skills/memsql.svg';
 import microsoftoffice from '/public/svg/skills/microsoftoffice.svg';
 import mongoDB from '/public/svg/skills/mongoDB.svg';
 import mysql from '/public/svg/skills/mysql.svg';
+import netcore from '/public/svg/skills/netcore.svg';
 import nextJS from '/public/svg/skills/nextJS.svg';
 import nginx from '/public/svg/skills/nginx.svg';
 import numpy from '/public/svg/skills/numpy.svg';
@@ -77,6 +78,8 @@ import wordpress from '/public/svg/skills/wordpress.svg';
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
+    case 'netcore':
+      return netcore;
     case 'gcp':
       return gcp;
     case 'html':

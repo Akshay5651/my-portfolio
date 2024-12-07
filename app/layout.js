@@ -12,9 +12,9 @@ import Head from "next/head"; // Import Head component
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Akshay Verma Portfolio - Frontend Developer",
+  title: "Akshay Verma - Full Stack Developer",
   description:
-    "This is the portfolio of Akshay Verma. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+    "I am Akshay Verma, a self-taught full-stack developer passionate about learning, innovation, and collaboration. I excel at tackling challenges, adapting quickly, and delivering impactful solutions.",
 };
 
 export default function RootLayout({ children }) {

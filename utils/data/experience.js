@@ -1,20 +1,20 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Systems Engineer',
-    company: "Infosys",
+    title: 'Senior Systems Engineer',
+    company: "[Infosys] - Noida, Uttar Pradesh",
     duration: "(Apr 2022 - Present)"
   },
   {
     id: 2,
     title: "Operations Executive",
-    company: "OPK e-services",
+    company: "[OPK e-services] - Gurugram, Haryana",
     duration: "(Mar 2021 - Apr 2022)"
   },
   {
     id: 3,
     title: "Application Support Engineer",
-    company: "VastEdge",
-    duration: "(Feb 2020 - Dec 2020)"
+    company: "[VastEdge] - Gurugram, Haryana",
+    duration: "(Dec 2019 - Dec 2020)"
   }
 ]
