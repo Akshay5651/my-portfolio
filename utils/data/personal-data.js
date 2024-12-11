@@ -1,0 +1,20 @@
+export const personalData = {
+  name: "AKSHAY VERMA",
+  profile: '/profile.png',  
+  designation: "Frontend Developer",
+  description: `"I am Akshay Verma, a passionate and dedicated software engineer with a strong foundation in full-stack web development. With expertise in modern technologies and a focus on problem-solving, I am driven to create impactful solutions. My core skills include JavaScript, .NET Core, MVC Core, and SQL, complemented by a strong interest in learning and adapting to new technologies. I thrive in dynamic environments where I can contribute to web application development, leveraging my experience in both frontend and backend development. I am open to exploring opportunities that align with my skills and passion for delivering innovative and efficient solutions to the world."`,
+  email: 'akshay.verma3701@gmail.com',
+  phone: '+91 89389 27500',
+  address: 'Sector 167, Noida, Uttar Pradesh - 201306',
+  github: 'https://github.com/Akshay5651',
+  githubprojects: 'https://github.com/Akshay5651?tab=repositories',
+  facebook: '',
+  linkedIn: 'https://www.linkedin.com/in/akshay-verma-0270b7172',
+  twitter: '',
+  stackOverflow: '',
+  leetcode: "https://leetcode.com/u/akki221099/",
+  devUsername: "akshay5651",
+  devTo: "https://dev.to/akshay5651",
+  coffee: "https://buymeacoffee.com/akki5651",
+  resume: "https://drive.google.com/file/d/1Qj_IcbQ2Yks5MICWvZx2ShFTLmdZsSMt/view?usp=sharing"
+}
