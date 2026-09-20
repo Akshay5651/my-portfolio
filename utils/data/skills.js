@@ -1,16 +1,19 @@
+// Deliberately shorter than the resume's skills block. The resume has to be
+// exhaustive for keyword matching; this marquee does not, and a wall of logos
+// reads as junior. Kept to the eight that carry the most weight for the
+// platform/DevOps roles being targeted next.
+//
+// HTML, CSS, Tailwind and Bootstrap were removed: they are assumed at this
+// level and were diluting the stronger signals next to them.
 export const skillsData = [
+  'AWS',
+  'Docker',
+  'Git',
   'C#',
   'NetCore',
-  'JavaScript',
-  'React',
-  'HTML',
-  'CSS',
-  'Tailwind',
-  'Bootstrap',
   'MySQL',
-  'Docker',
-  'AWS',
-  'Git'
+  'JavaScript',
+  'React'
 ]
 
 // Note: Redis, Kubernetes, Entity Framework, SQL Server, Postman, Jira,
