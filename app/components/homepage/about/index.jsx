@@ -23,12 +23,18 @@ function AboutSection() {
           </p>
         </div>
         <div className="flex justify-center order-1 lg:order-2">
+          {/* The source photo is square (1078x1078); the old 300x280 box
+              squashed it and left the column looking empty. Intrinsic size now
+              matches the file so the aspect ratio is preserved, and the width
+              is driven by CSS so it scales with the column instead of being
+              pinned at 300px. */}
           <Image
             src={personalData.profile}
-            width={300}
-            height={280}
+            width={1078}
+            height={1078}
             alt="Akshay Verma"
-            className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
+            priority
+            className="w-full max-w-[300px] sm:max-w-[380px] lg:max-w-[440px] h-auto rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
           />
         </div>
       </div>
