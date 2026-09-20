@@ -1,18 +1,22 @@
 export const skillsData = [
-  'HTML',
-  'CSS', 
-  'JavaScript', 
-  'Tailwind',
-  'React',
-  'Git',
   'C#',
   'NetCore',
+  'JavaScript',
+  'React',
+  'HTML',
+  'CSS',
+  'Tailwind',
+  'Bootstrap',
   'MySQL',
   'Docker',
-  'AWS', 
-  'MongoDB',
-  'WordPress'
+  'AWS',
+  'Git'
 ]
+
+// Note: Redis, Kubernetes, Entity Framework, SQL Server, Postman, Jira,
+// ServiceNow and CyberArk are on the resume but have no icon in
+// utils/skill-image.js, so they are not listed here. MySQL stands in as the
+// generic SQL icon.
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
 // Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new

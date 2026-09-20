@@ -1,33 +1,50 @@
 export const projectsData = [
     {
         id: 1,
-        name: 'AWS Cloud Migration',
-        description: `Orchestrated a strategic cloud migration initiative, successfully transitioning 35+ on-premise .NET applications to  AWS Cloud, yielding a 40% reduction in operational costs and a 16% increase in system uptime.
-        Standardized environments across development and production using Docker for containerization.
-        Improved software reliability and quality by implementing automated testing and deployment pipelines with GitLab CI/CD, reducing deployment time by 40%`,
-        tools: [ 'C#', '.NET Core', 'Swagger', 'GitLab', 'Docker', 'AWS (EC2, S3, CloudWatch)'],
-        role: 'Backend Developer',
+        name: 'Production Support & Incident Management',
+        description: `Supported 20+ .NET Core and React.js applications running on AWS, holding 99.9% uptime across all environments.
+        Provided L1/L2 support for critical applications across Prod, Dev, UAT and QA, monitoring health and performance with AWS CloudWatch and cutting unplanned downtime by 15%.
+        Ran daily health checks through automation tools, reducing high-severity incidents by 25%, and handled incident, problem and change workflows in ServiceNow, improving resolution time by 20%.
+        Secured privileged access and credentials with CyberArk, strengthening application and infrastructure security.`,
+        tools: ['ServiceNow', 'CyberArk', 'Power Automate', 'AWS CloudWatch', '.NET Core', 'React.js'],
+        role: 'Senior Software Engineer',
         code: '',
         demo: '',
         image: '',
     },
     {
         id: 2,
-        name: 'Trade Operations Processing System (TOPS)',
-        description: "- Spearheaded a cross-functional team to revamp the company's web application, resulting in an 8% reduction in processing time for trade transactions between banks and users. - Ensuring seamless communication with the frontend team to integrate APIs, enabling the front end to leverage real-time data and reducing user wait times by 2s. This data-driven approach fostered an optimal user experience.",
-        tools: [ 'C#', '.NET Core', 'MVC Core', 'Entity Framework', 'Web API', 'SQL Server', 'React.js'],
-        code: '',
+        name: 'AWS Cloud Migration',
+        description: `Led the migration of 35+ on-premise .NET applications to AWS (EC2, IAM, CloudWatch), cutting operational costs by 40% and increasing system uptime by 16%.
+        Standardized environments across development and production using Docker, enabling consistent deployments and better scalability.
+        Automated CI/CD pipelines with GitLab, reducing deployment time by 40% and increasing release efficiency.`,
+        tools: ['C#', '.NET Core', 'Swagger', 'GitLab', 'Docker', 'AWS (EC2, S3, CloudWatch)'],
         role: 'Backend Developer',
+        code: '',
         demo: '',
         image: '',
     },
     {
         id: 3,
-        name: 'Frontend Web Applications',
-        description: "- Spearheaded a cross-functional team to revamp the company's web application, resulting in an 8% reduction in processing time for trade transactions between banks and users. - Ensuring seamless communication with the frontend team to integrate APIs, enabling the front end to leverage real-time data and reducing user wait times by 2s. This data-driven approach fostered an optimal user experience.",
-        tools: [ 'HTML', 'CSS', 'Tailwind CSS', 'React.js'],
+        name: 'Financial Banking Web Application',
+        description: `Redesigned a core banking web application with an 18-member team, improving overall system performance by 18%.
+        Partnered with the frontend team to develop and integrate 8 APIs, reducing average response time by 2 seconds.
+        Designed scalable modules with .NET Core and MVC, improving reliability by 15% and reducing downtime by 4%.`,
+        tools: ['C#', '.NET Core', 'MVC Core', 'Entity Framework', 'Web API', 'SQL Server', 'React.js'],
+        role: 'Backend Developer',
         code: '',
+        demo: '',
+        image: '',
+    },
+    {
+        id: 4,
+        name: 'Frontend Web Applications',
+        description: `Engineered and refined frontend user interfaces with React.js, improving user experience and reducing page load time by 25%.
+        Boosted React.js performance through code-splitting and lazy loading, improving page load times by a further 30%.
+        Built a modern, scalable design system from custom Tailwind CSS components, accelerating development time by 20%, and introduced reusable UI libraries that made new features 30% faster to ship.`,
+        tools: ['HTML', 'CSS', 'Tailwind CSS', 'React.js'],
         role: 'Frontend Developer',
+        code: '',
         demo: '',
         image: '',
     }

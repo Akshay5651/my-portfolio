@@ -1,8 +1,8 @@
 export const personalData = {
   name: "AKSHAY VERMA",
   profile: '/profile.png',  
-  designation: "Frontend Developer",
-  description: `"I am Akshay Verma, a passionate and dedicated software engineer with a strong foundation in full-stack web development. With expertise in modern technologies and a focus on problem-solving, I am driven to create impactful solutions. My core skills include JavaScript, .NET Core, MVC Core, and SQL, complemented by a strong interest in learning and adapting to new technologies. I thrive in dynamic environments where I can contribute to web application development, leveraging my experience in both frontend and backend development. I am open to exploring opportunities that align with my skills and passion for delivering innovative and efficient solutions to the world."`,
+  designation: "Full Stack Developer",
+  description: `"I am Akshay Verma, a full stack developer with 6 years of experience building scalable web applications using .NET Core, MVC, C#, Entity Framework, SQL Server and React.js. I work across the whole stack — designing and integrating RESTful APIs, tuning performance, and migrating on-premises applications to AWS using services like EC2, S3 and RDS. Alongside development I handle production support across Dev, UAT, QA and Prod environments, monitoring application health and resolving incidents to keep uptime high. I am open to opportunities where I can keep building reliable, well-engineered software."`,
   email: 'akshay.verma3701@gmail.com',
   phone: '+91 89389 27500',
   address: 'Sector 167, Noida, Uttar Pradesh - 201306',
