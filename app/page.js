@@ -19,8 +19,15 @@ export default function Home() {
   useEffect(() => {
     const getData = async () => {
       try {
+        // per_page is deliberate, not cosmetic: dev.to's CDN caches the bare
+        // `?username=` URL aggressively (seen serving an hour-stale response
+        // with Age: 3480), so a new post would not appear here for a long time
+        // no matter how often the page was refreshed. The extra param gives a
+        // different cache key, and no-store keeps the browser from adding its
+        // own layer on top.
         const res = await fetch(
-          `https://dev.to/api/articles?username=${personalData.devUsername}`
+          `https://dev.to/api/articles?username=${personalData.devUsername}&per_page=30`,
+          { cache: "no-store" }
         );
 
         if (!res.ok) {

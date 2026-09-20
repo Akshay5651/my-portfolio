@@ -3,8 +3,16 @@
 import { personalData } from "@/utils/data/personal-data";
 import BlogCard from "../components/homepage/blog/blog-card";
 
+// Note: this page is prerendered at build time (output: 'export'), so the list
+// here only refreshes when the site is rebuilt. The homepage fetches in the
+// browser and updates on its own.
 async function getBlogs() {
-  const res = await fetch(`https://dev.to/api/articles?username=${personalData.devUsername}`);
+  // per_page avoids dev.to's heavily cached bare `?username=` URL — see the
+  // comment in app/page.js. No `cache: 'no-store'` here: that would mark the
+  // route dynamic and `output: 'export'` refuses to prerender it.
+  const res = await fetch(
+    `https://dev.to/api/articles?username=${personalData.devUsername}&per_page=30`
+  );
 
   if (!res.ok) {
     throw new Error('Failed to fetch data');
