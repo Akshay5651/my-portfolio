@@ -1,29 +1,13 @@
 // @flow strict
 
-import { personalData } from "@/utils/data/personal-data";
 import BlogCard from "../components/homepage/blog/blog-card";
+import { fetchBlogs } from "@/utils/fetch-blogs";
 
-// Note: this page is prerendered at build time (output: 'export'), so the list
-// here only refreshes when the site is rebuilt. The homepage fetches in the
-// browser and updates on its own.
-async function getBlogs() {
-  // per_page avoids dev.to's heavily cached bare `?username=` URL — see the
-  // comment in app/page.js. No `cache: 'no-store'` here: that would mark the
-  // route dynamic and `output: 'export'` refuses to prerender it.
-  const res = await fetch(
-    `https://dev.to/api/articles?username=${personalData.devUsername}&per_page=30`
-  );
-
-  if (!res.ok) {
-    throw new Error('Failed to fetch data');
-  }
-
-  const data = await res.json();
-  return data;
-}
-
+// Prerendered at build time, like the homepage, and sharing the same fetch so
+// both pages show the same list. See utils/fetch-blogs.js for why the request
+// has to run in Node rather than the browser.
 async function page() {
-  const blogs = await getBlogs();
+  const blogs = await fetchBlogs();
 
   return (
     <div className="py-8">
