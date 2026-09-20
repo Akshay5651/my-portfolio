@@ -7,14 +7,18 @@
 // level and were diluting the stronger signals next to them.
 export const skillsData = [
   'AWS',
-  'Docker',
-  'Git',
   'C#',
   'NetCore',
   'MySQL',
+  'React',
   'JavaScript',
-  'React'
+  'Git'
 ]
+
+// Docker was removed: the only claim to it came from the cloud-migration work,
+// which was executed by senior engineers. The day-to-day operations tooling
+// (ServiceNow, CyberArk, Power Automate, Appian, PeopleSoft) has no icon here,
+// so it is carried in the project entries instead of this marquee.
 
 // Note: Redis, Kubernetes, Entity Framework, SQL Server, Postman, Jira,
 // ServiceNow and CyberArk are on the resume but have no icon in

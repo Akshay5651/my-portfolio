@@ -2,7 +2,7 @@ export const personalData = {
   name: "AKSHAY VERMA",
   profile: '/profile.png',  
   designation: "Full Stack Developer",
-  description: `"I am Akshay Verma, a software engineer with 6 years of experience across application development and production operations. I build with .NET Core, C#, Entity Framework, SQL Server and React.js, and I have migrated on-premise .NET workloads to AWS using EC2, S3, IAM and CloudWatch, containerising with Docker and automating releases through GitLab CI/CD. Today I keep financial services platforms running in production — access management, health checks, scheduled environment refreshes, incident response through ServiceNow, and payment-data reconciliation ahead of bank releases. I am moving towards platform and DevOps engineering, where reliability, automation and cloud infrastructure are the job rather than the sideline."`,
+  description: `"I am Akshay Verma, a software engineer with 6 years of experience across application development and production operations. I build with .NET Core, C#, MVC, Entity Framework, SQL Server and React.js, and I spent my development years on banking and trade-processing applications. Today I keep financial services platforms running in production — provisioning access, running health checks on EC2-hosted servers through CyberArk, handling weekend environment refreshes, managing incidents through ServiceNow, and reconciling payment data between systems before funds are released to the bank. I am working towards cloud and platform operations roles, building on the production and cloud infrastructure I support every day."`,
   email: 'akshay.verma3701@gmail.com',
   phone: '+91 89389 27500',
   address: 'Sector 167, Noida, Uttar Pradesh - 201306',
