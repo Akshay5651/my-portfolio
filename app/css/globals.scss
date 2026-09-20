@@ -12,9 +12,35 @@
   }
 }
 
+// The decorative backgrounds (hero.svg, section.svg, blur-23.svg) are 1572px
+// and 1080px wide and are absolutely positioned so they bleed past the content
+// container on purpose. Left unclipped they widen the page itself, which gives
+// every viewport a horizontal scrollbar — body.scrollWidth was 1572px against
+// a 737px content width.
+//
+// `clip` rather than `hidden`: `hidden` would turn the viewport into a scroll
+// container and break `position: sticky`, which the Projects section relies on
+// for its stacking cards. `clip` clips without creating a scroll container, and
+// it is the one value allowed to sit on one axis while the other stays
+// `visible`. Browsers without support (Safari < 16) ignore it and simply keep
+// the old sideways scroll.
+html {
+  overflow-x: clip;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background-color: #0d1224;
+}
+
+// Used by the navbar strip, which scrolls internally at tablet widths.
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 #sticky-card-1 {
