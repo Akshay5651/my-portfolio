@@ -37,3 +37,7 @@ next-env.d.ts
 
 # local editor/agent config
 .claude/
+
+# superseded by public/profile.jpg
+public/Profile.png
+utils/Profile.png
