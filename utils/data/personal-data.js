@@ -16,5 +16,5 @@ export const personalData = {
   devUsername: "akshay5651",
   devTo: "https://dev.to/akshay5651",
   coffee: "https://buymeacoffee.com/akki5651",
-  resume: "https://drive.google.com/file/d/1Qj_IcbQ2Yks5MICWvZx2ShFTLmdZsSMt/view?usp=sharing"
+  resume: "https://www.canva.com/d/S4izjOJSQtdrpd2"
 }
