@@ -1,6 +1,6 @@
 export const personalData = {
   name: "AKSHAY VERMA",
-  profile: '/profile.png',  
+  profile: '/profile.jpg',
   designation: "Full Stack Developer",
   description: `"I am Akshay Verma, a software engineer with 6 years of experience across application development and production operations. I build with .NET Core, C#, MVC, Entity Framework, SQL Server and React.js, and I spent my development years on banking and trade-processing applications. Today I keep financial services platforms running in production — provisioning access, running health checks on EC2-hosted servers through CyberArk, handling weekend environment refreshes, managing incidents through ServiceNow, and reconciling payment data between systems before funds are released to the bank. I am working towards cloud and platform operations roles, building on the production and cloud infrastructure I support every day."`,
   email: 'akshay.verma3701@gmail.com',
@@ -16,5 +16,7 @@ export const personalData = {
   devUsername: "akshay5651",
   devTo: "https://dev.to/akshay5651",
   coffee: "https://buymeacoffee.com/akki5651",
-  resume: "https://www.canva.com/d/S4izjOJSQtdrpd2"
+  // Served from public/ rather than a Canva share link: the Canva URL sent
+  // anyone not already logged in to a Canva sign-up page instead of the resume.
+  resume: "/Akshay_Verma_Resume.pdf"
 }

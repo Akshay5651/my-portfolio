@@ -29,10 +29,12 @@ export default function Home() {
 
         const data = await res.json();
 
-        // Filter and sort deterministically
+        // Only posts with a cover image render as cards, so anything without
+        // one is dropped here. Newest first — sorting by title meant a new
+        // post could land anywhere in the list.
         const filtered = data
           .filter((item) => item?.cover_image)
-          .sort((a, b) => a.title.localeCompare(b.title)); // Alphabetical sort
+          .sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
 
         setBlogs(filtered);
       } catch (err) {

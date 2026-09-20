@@ -27,9 +27,13 @@ function Skills() {
       </div>
 
       <div className="w-full my-12">
+        {/* autoFill repeats the list until it spans the container. Without it
+            the marquee renders the children only twice, so a short skills list
+            leaves a visible empty gap at the loop seam on wide screens. */}
         <Marquee
           gradient={false}
           speed={80}
+          autoFill={true}
           pauseOnHover={true}
           pauseOnClick={true}
           delay={0}
